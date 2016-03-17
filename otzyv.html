@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Служба выбора такси в г.Топки</title>
+        <meta http-equiv="Content-Type" content="text/html; 
+    charset=windows-1251"/>
+        <meta name="keywords" content="такси в Топках, выбрать такси, 
+         в Топках, такси г.Топки, такси по городу Топки, дешевое 
+         такси,комфортное такси, грузоперевозки"/>
+        <meta name="description" content="Служба выбора такси 
+    является помощью по выбору заказу такси в Топках и Кемеровской     области. Наша цель обеспечить комфортным и безопасным видом        транспорта жителей нашего края"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+            <style>
+     html { overflow-x: hidden; }
+     div { 
+     min-width:  800px; /* Минимальная  ширина */
+     padding: 10px;  /* Поля вокруг текста */  }
+    </style>
+        </head>
+        <body>
+            <div id="page">
+                <div class= "logo">
+                    <img alt="Такси нашего города" src="images/logo.jpg">
+                    </div>
+                    <h1>Кемеровская область город Топки</h1>
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html">
+                                <b>Вернуться назад</b>
+                            </a>
+                        </li>
+                    </ul>
+                    <h3>
+                        <p class="one">
+                            <img alt="Картинка" src="images/taxi_9016.png"> Пожалуйста,         заполните все поля и оставьте отзыв о такси в нашем городе
+   
+                            </p>
+                        </h3>
+                        <form id="auth"  action="inp.php" method="post" >
+                            <fieldset id="user">
+                                <legend align="center">Данные пользователя:</legend>
+                                <label>Ваше имя:
+                                    <br>
+                                        <input class="im"  name="name" size="30" placeholder="фамилия и имя" 
+       type="text"  form="auth" required>
+                                            <br>
+                                            </label>
+                                            <label>Выберите название такси:    
+      
+                                                <select name="taksi_name" form="auth">
+                                                    <option value="alfa">Альфа</option>
+                                                    <option value="diligans">Дилижанс</option>
+                                                    <option value="region">Регион</option>
+                                                    <option value="troika">Тройка</option>
+                                                    <option value="forsag">Форсаж</option>
+                                                </select>
+                                                <br>
+                                                </label>
+                                                <label>Оцените, пожалуйста: 
+                                                    <br>
+                                                        <input name="ocenka" type="radio" value="five" 
+       checked="checked" form="auth">
+      5
+      
+                                                            <input name="ocenka" type="radio" value="four">
+      4                                                                  
+                                                                <input name="ocenka" type="radio" value="three">
+      3
+      
+                                                                    <input name="ocenka" type="radio" value="two">
+      2
+      
+                                                                        <input name="ocenka" type="radio" value="one">
+      1                                                                 
+                                                                        </label>
+                                                                    </fieldset>
+                                                                    <fieldset id="mnenie">
+                                                                        <legend  align="center">Ваше мнение:</legend>
+                                                                        <label>Ваш комментарий:
+      
+                                                                            <textarea name="komm" cols="50" id="comments" rows="5"    form="auth"></textarea>
+                                                                        </label>
+                                                                        <input class="out" type="submit" value="Отправить отзыв">
+                                                                            <input class="out" type="reset" value="Очистить">
+                                                                            </fieldset>
+                                                                        </form>
+                                                                        <br>
+                                                                            <div> 
+         &copy;2016, - Все права           защищены
+   </div>
+                                                                            <footer></footer>
+                                                                        </div>
+                                                                    </body>
+                                                                </html>
